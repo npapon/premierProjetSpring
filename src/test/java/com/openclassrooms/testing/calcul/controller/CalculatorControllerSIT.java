@@ -44,7 +44,7 @@ public class CalculatorControllerSIT {
                         .param( "calculationType", "ADDITION" ) )
                 .andExpect( MockMvcResultMatchers.status().is2xxSuccessful() ).andReturn();
 
-        // THEN
+        // THEN .
         assertThat( resultatDuPost.getResponse().getContentAsString() ).contains( "id=\"solution\"" )
                 .contains( ">5</span>" );
     }
