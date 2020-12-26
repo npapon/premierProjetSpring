@@ -1,4 +1,4 @@
-package com.openclassrooms.testing.caclul.acceptance;
+package com.openclassrooms.testing.calclul.acceptance;
 
 import org.junit.runner.RunWith;
 
