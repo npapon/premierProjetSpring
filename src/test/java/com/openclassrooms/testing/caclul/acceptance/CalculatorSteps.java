@@ -1,4 +1,4 @@
-package org.openclassrooms.testing.cacul.acceptance;
+package com.openclassrooms.testing.caclul.acceptance;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
